@@ -1,0 +1,29 @@
+//commands:
+
+npm i -g typescript
+npx tsc --init
+npm i express
+npm i mongoose
+npm i --save-dev nodemon
+npm i dotenv
+npm i validator
+npm i multer
+npm i uuid
+npm install @faker-js/faker>
+npm i node-cache
+npm i morgan
+npm i cors
+
+//types
+npm i --save-dev @types/express @types/node typescript
+npm i --save-dev @types/validator
+npm i --save-dev @types/multer
+npm i --save-dev @types/uuid
+npm i --save-dev @faker-js/faker
+npm i --save-dev @types/morgan
+npm i --save-dev @types/cors
+
+
+//To create Dist Folder
+npx tsc
+Note: The changes that you will make inside app.ts will be reflect to the app.js as well
