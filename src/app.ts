@@ -11,6 +11,7 @@ import productRoute from "./routes/product.js";
 import dashboardRoute from "./routes/statistics.js";
 import userRoute from "./routes/user.js";
 import contactRoute from "./routes/contact.js";
+
 import Stripe from "stripe";
 import { errorMiddleware } from "./middlewares/error.js";
 import { connectDB } from "./utils/features.js";
@@ -19,7 +20,7 @@ dotenv.config({
   path: "./.env"
 });
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 const stripeKey = process.env.STRIPE_KEY || "";
 // const mongoURI = process.env.MONGODB_URI || "";
 
