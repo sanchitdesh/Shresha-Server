@@ -105,11 +105,11 @@ export const newProduct = TryCatch(async (req, res, next) => {
         stock,
         size: size.toUpperCase(),
         color: color.toLowerCase() || color.toUpperCase(),
-        photo: photo?.path
+        photo: photo.path
     });
-    console.log(description);
     //Validation
     invalidateCache({ product: true, admin: true });
+    console.log(req.file);
     return res.status(201).json({
         success: true,
         message: "Product Created Successfully"

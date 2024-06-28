@@ -9,8 +9,8 @@ import {
   deleteProduct,
   getAllProducts
 } from "../controllers/product.js";
-import { singleUpload } from "../middlewares/multer.js";
 import { adminOnly } from "../middlewares/auth.js";
+import { singleUpload } from "../middlewares/multer.js";
 
 const app = express.Router();
 

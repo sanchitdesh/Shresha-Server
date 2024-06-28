@@ -1,7 +1,7 @@
 import express from "express";
 import { getAdminProducts, getAllCategories, getLatestProducts, getSingleProduct, updateProduct, newProduct, deleteProduct, getAllProducts } from "../controllers/product.js";
-import { singleUpload } from "../middlewares/multer.js";
 import { adminOnly } from "../middlewares/auth.js";
+import { singleUpload } from "../middlewares/multer.js";
 const app = express.Router();
 //=========================DEFINING ROUTES==========================
 //route - /api/v1/product/create
