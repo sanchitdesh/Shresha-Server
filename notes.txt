@@ -27,3 +27,22 @@ npm i --save-dev @types/cors
 //To create Dist Folder
 npx tsc
 Note: The changes that you will make inside app.ts will be reflect to the app.js as well
+
+
+Git:
+
+cd path/to/your/local/repository
+git remote -v
+
+//will get to see
+origin  https://github.com/yourusername/existing-repo.git (fetch)
+origin  https://github.com/yourusername/existing-repo.git (push)
+
+//apply command
+git remote remove origin
+
+git remote -v
+
+git remote add origin https://github.com/yourusername/new-repo-name.git
+
+git remote -v

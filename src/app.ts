@@ -20,7 +20,7 @@ dotenv.config({
   path: "./.env"
 });
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 const stripeKey = process.env.STRIPE_KEY || "";
 // const mongoURI = process.env.MONGODB_URI || "";
 
